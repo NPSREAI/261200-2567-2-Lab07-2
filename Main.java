@@ -9,12 +9,12 @@ public class Main {
         hero.swingSword();
         hero.swingSword();
         hero.swingSword();
-        hero.swingSword(); // Should trigger "Your character needs to cool down."
+        hero.swingSword();
 
         // Call takeDamage
         hero.takeDamage(30);
         hero.takeDamage(50);
-        hero.takeDamage(20); // Should trigger "Character is dead."
+        hero.takeDamage(20);
 
         // Call rest
         hero.rest();
